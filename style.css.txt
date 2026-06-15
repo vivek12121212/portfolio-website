@@ -1,13 +1,39 @@
 body {
     font-family: Arial;
-    text-align: center;
-    background-color: #f2f2f2;
+    margin: 0;
+    background: #f4f4f4;
 }
 
-h1 {
-    color: darkblue;
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c3e50;
 }
 
 ul {
     list-style: none;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
 }
